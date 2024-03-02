@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 19, 19)!important;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+   
+}
+
+.fword{
+    font-family: "Mrs Saint Delafield", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: white;
+    
+}
+.sword{
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.custom-hr {
+    width: 30%; /* Set the width to 100% to ensure it stretches across the container */
+    margin: 0; /* Remove any default margin */
+    border: none;
+    
+    border-top: 3px solid white; /* Or any other desired border style */
+}
+.navbar-brand{
+    text-align: center!important;
+    justify-content: center!important;
+    color: white!important;
+    font-family: "Teko", sans-serif;
+    font-size: 40px!important;
+    letter-spacing: 3px;
+    
+}
+.nav{
+    background-color: rgb(43, 42, 42);
+    padding: 10px;
+    border: 2px solid white;
+    
+}
+.images{
+    max-width: 100%;
+    
+    height: 400px;
+    margin-bottom: 40px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 40px;
+    border: 2px solid white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.pics{
+    margin-top: 20px!important;
+}
+
+    @media screen and (max-width: 768px) {
+        /* Adjust styles for smaller screens */
+        .images {
+            width: 100%; /* Set width to 50% for two images per row */
+            margin-bottom: 20px; /* Decrease margin for smaller screens */
+            margin-top: 30px;
+        
+        }
+        .fword{
+            font-size: 40px;
+        }
+        .sword{
+            font-size: 25px;
+        }
+        .custom-hr{
+            width: 70%;
+        }
+        .navbar-brand{
+            font-size: 30px!important;
+        }
+        body{
+            overflow-x: hidden;
+        }
+    }
